@@ -11,6 +11,9 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk"
+      },
+      "env": {
+        "YARN_FLAGS": "--ignore-engines"
       }
     },
     "production": {}
