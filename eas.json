@@ -11,12 +11,9 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk"
-      },
-      "frozenLockfile": false
+      }
     },
-    "production": {
-      "frozenLockfile": false
-    }
+    "production": {}
   },
   "submit": {
     "production": {}
