@@ -8,7 +8,7 @@
     "build": "node scripts/build.js",
     "serve": "node server/serve.js",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "eas-build-pre-install": "touch yarn.lock && echo 'nodeLinker: node-modules' > .yarnrc.yml"
+    "eas-build-pre-install": "yarn config set ignore-engines true && touch yarn.lock"
   },
   "dependencies": {
     "@babel/core": "^7.25.2",
